@@ -1,0 +1,202 @@
+body{
+	margin:0px; background-color:#fff; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size:13px; text-decoration: none; font-weight: 300
+}
+.gn-anim{transition: all 0.5s ease}
+.gn-anim-fast{transition: all 0.2s ease}
+
+.navigation-bar{
+	display:block; position: fixed; top:0px; height: 60px; left:0px; line-height: 60px; width:100%; z-index: 2;
+	/*box-shadow:1px 1px 4px rgba(0,0,0,0.1); background-color: #fff*/
+}
+
+.gn-m-menu{
+	padding-top:60px;
+	background-color: rgba(50, 50, 50, 0.97); border-bottom: 1px solid rgba(0, 0, 0, 0.4); display: table; 
+	height: 160px; left: 0; line-height: 60px; position: fixed; top: -1000px; width: 100%; z-index: 1;
+}
+.gn-menu-m{
+	display:block; font-size:18px; color:#fff; padding:0px 10px; width:calc(100% - 20px); border-bottom: 1px solid rgba(255,255,255,0.2);
+	text-decoration: none; line-height:44px
+}
+.gn-menu-m:hover{
+	background-color:rgba(0,0,0,0.4)
+}
+
+.gn-logo{display:inline-block;  margin-left:20px;
+			text-align:center; height: 60px;float:left; line-height: 60px; position: relative;
+			color:rgba(255,255,255,0.8); font-size:30px; 
+	
+}
+
+.rotate {
+	transform: rotate(-24deg); -webkit-transform: rotate(-24deg); -moz-transform: rotate(-24deg); -ms-transform: rotate(-24deg); -o-transform: rotate(-24deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	display: inline-block; font-size: 44px; left: -14px; top: -11px; position: absolute;
+}
+.logosymbol{
+	background-color: rgba(255,255,255,0.8); color: #fff; display: inline-block; font-size: 40px; font-weight: normal; height: 48px;
+	line-height: 85px; margin-left: 20px; margin-right: 10px; margin-top: 5px; overflow: hidden; position: relative; width: 40px;
+}
+
+.gn-menu{
+	display:inline-block; float:right; height: 60px; line-height: 60px; padding-left:20px; padding-right:20px;
+	font-size:18px; cursor:pointer; color: rgba(255,255,255,0.8); text-decoration:none 
+}
+.gn-menu:hover{color:#fff}
+
+.gn-menu2{
+	display:inline-block; float:right; height: 34px; line-height: 34px; padding-left:20px; padding-right:20px; text-decoration:none;
+	font-size:18px; cursor:pointer; color: rgba(255,255,255,0.8); border:1px solid #fff; margin-top:13px; margin-right:20px; border-radius:8px 
+}
+
+.gn-menu2:hover{
+	background-color:#fff; border-color:#fff; color:#4cd9c0;
+}
+
+.gn-slider{
+	display:block; z-index: 0; width:100%; height: 600px;
+	background-size: cover;  background-image: url(../images/back3.jpg); 
+}
+.big-text{
+	font-size:64px; color:#fff; display: block; width: 100%;  text-align: center; position: relative;
+	text-shadow:1px 1px 3px rgba(0,0,0,0.3); font-weight: normal; padding-top:120px
+	
+}
+.navicon{
+	float:right; margin-right: 20px; font-size: 32px; cursor:pointer; color:rgba(255,255,255,0.8); display:none
+}
+.navicon:hover{color:#fff}
+
+.nav2{background-color:#fff;box-shadow:1px 1px 10px rgba(0, 0, 0, 0.5)}
+.nav2 > .gn-logo{color:#4cd9c0}
+.nav2 > .gn-menu{color:#4cd9c0}
+.nav2 > .gn-menu:hover{color:#0f9c83}
+.nav2 > .navicon{color:#4cd9c0}
+.nav2 > .navicon:hover{color:#0f9c83}
+.nav2 > .gn-menu2{color:#4cd9c0; border-color:#4cd9c0}
+.nav2 > .gn-menu2:hover{color:#fff; background-color:#0f9c83; border-color:#0f9c83}
+.nav2 > .gn-logo > .logosymbol{background-color:#4cd9c0}
+
+.gnBoxA{display:table; float:left; width:100%; ; height:auto; padding:0px; table-layout: fixed; }
+.gnBoxB{display:table; float:left; width:50%; ; height:auto; padding: 0px; table-layout: fixed}
+.gnBoxC{display:table; float:left; width:66.6666%; ; height:auto; padding: 0px; table-layout: fixed}
+.gnBoxD{display:table; float:left; width:33.3333%; ; height:auto; padding: 0px; table-layout: fixed}
+.gnBoxE{display:table; float:left; width:20%; ; height:auto; padding: 0px; table-layout: fixed}
+.gnBoxD1{display:table; float:left; width:33.3333%; ; height:auto; padding: 0px; table-layout: fixed}
+.gnBoxC1{display:table; float:left; width:66.6666%; ; height:auto; padding: 0px; table-layout: fixed}
+.gnBox{width:1400px; margin-left: calc(50% - 700px)}
+
+
+
+.text1{
+	padding-top:10px; display:inline-block; font-size:36px; margin-left:50px
+}
+.gn-box-type{
+	display:block; padding-bottom:40px; padding-left:30px;
+	border-left:1px dashed #ccc; position:relative; margin-left:20px
+}
+.text2{font-size:24px}
+.text3{font-size:16px; display:inline-block; width:80%}
+.i-circle{
+	font-size: 24px; color: #fff; display: inline-block; background-color: #ccc; width: 40px; height: 40px; 
+	text-align: center; border-radius: 32px; position: absolute; left:-20px; line-height: 40px
+}
+.gn-wece{position: absolute; bottom:0px; font-size:22px; color:#4cd9c0; width:100%; display:inline-block; text-align: center}
+
+.text4{color:#fff; font-size:45px; margin-top:100px}
+.text5{color:#d7d7d7; font-size:18px; margin-top:50px; display:inline-block; width:80%; line-height: 26px}
+.vdemo{border:1px solid #fff; padding:10px 15px; font-size:18px; font-weight:200; background-color:transparent; 
+	color:#fff; border-radius:10px; cursor:pointer; font-weight: 300
+}
+.vdemo:hover{
+	background-color:#fff; color:#3d4045
+}
+.text6{display:block; width: 100%; padding-top:50px;text-align: center; color:#fff; font-size:45px}
+.text7{display:block; width: 100%; padding-top:20px;text-align: center; color:#fff; font-size:18px; padding-bottom:30px}
+
+.text8{color:#3d4045; font-size:36px; padding-top:50px; margin-left:50px;}
+.text9{color:#3d4045; font-size:15px; margin-bottom:10px; margin-left:50px;}
+
+.i-circle2{
+	font-size: 24px; color: #fff; display: inline-block; background-color: #ccc; width: 40px; height: 40px; 
+	text-align: center; border-radius: 32px; float:left; margin-bottom:30px; margin-left:10px; line-height:40px;
+}
+.i-circle2.ion-social-facebook:hover{cursor: pointer; background-color:#009be4}
+.i-circle2.ion-social-twitter:hover{cursor: pointer; background-color:#4fc4f6}
+.i-circle2.ion-social-googleplus:hover{cursor: pointer; background-color:#eb5b4c}
+
+
+.subscribe{display:block; width: 70%; margin-left:15%; font-size:15px; margin-top:50px; background-color:#ededed; padding:10px}
+.ssinput{font-size: 15px; padding:5px 10px; width: calc(100% - 130px); font-weight: 300; border:1px solid #4cd9c0; border-radius:0px; outline:none}
+.bss{border:0px; font-size:15px; background-color: #4cd9c0; color:#fff; font-weight: 300; padding:5px 10px; height: 35px; width:100px; margin-bottom:10px}
+
+.gn-img1{position:relative; background-image: url(../images/sl1.jpg); background-repeat: no-repeat; background-size: auto auto; margin-top: 60px; height: 500px; background-position: left bottom;}
+.gn-img2{position:relative; background-image: url(../images/sl2.png); background-repeat: no-repeat; background-size: auto 100%; height: 600px; background-position: right bottom;}
+.i-circle2.ion-social-facebook{margin-left:50px}
+@media only screen and  (max-width : 1400px){
+	.gnBox{width:calc(100% - 30px); margin-left: 0px; padding-left:15px; padding-right:15px}
+}
+
+@media only screen and (max-width : 1200px)  {
+	/*Tablet landscape*/
+}
+
+@media only screen and (max-width : 980px)  {
+	/*Tablet portrait*/
+	.gnBoxA{float:none;}	
+	.gnBoxC{float:none; width:100%}			
+	.gnBoxD{float:left; width:50%}	
+	.gnBoxE{float:left; width:33.3333%}
+	.gnBoxC1{float:left; width:65%}
+	.gnBoxD1{float:left; width:35%}	
+	.gn-img1{display:none}
+	.gn-img2{display:none}
+	.text4{margin-left:10px; width: calc(100% - 20px); margin-top:20px; }
+	.text5{margin-left:10px; width: calc(100% - 20px)}
+	.vdemo{margin-bottom:20px; margin-left:10px}
+	.text8{margin-left:10px; }
+	.text9{margin-left:10px; }
+	.subscribe{margin-left:0px; width: calc(100% - 20px); margin-bottom:20px}
+	.i-circle2.ion-social-facebook{margin-left:10px} 
+	.gn-always{text-align: center; width:100%}
+	.gn-wme{width:100%}
+	
+}
+@media only screen and (max-width : 760px)  {
+
+}
+
+@media only screen and (max-width : 500px){
+	/* Phone landscape*/
+	.gnBoxA{float:none}
+	.gnBoxB{float:left; width:50%}
+	.gnBoxC{float:none; width:100%}
+	.gnBoxD{float:left; width:50%}
+	.gnBoxE{float:left; width:50%}	
+	.gnBoxC1{float:left; width:100%}
+	.gnBoxD1{float:left; width:100%}
+	.gn-logo{margin-left:0px}
+	.logosymbol{margin-left:10px}
+	.big-text{font-size:48px}
+	.text1{margin-left:10px}
+	
+	
+}
+
+@media only screen and (max-width : 380px){
+	/* Phone portrait*/
+	.gnBoxA{float:none}
+	.gnBoxB{float:none; width:100%}
+	.gnBoxC{float:none; width:100%}
+	.gnBoxD{float:none; width:100%}
+	.gnBoxE{float:none; width:100%}	
+	.gnBoxC1{float:left; width:100%}
+	.gnBoxD1{float:left; width:100%}	
+}
+@media only screen and  (max-width : 900px){
+	.navicon{display: inline-block}
+	.navigation-bar > .gn-menu{display:none}
+}
+@media only screen and  (max-width : 600px){
+	.navigation-bar > .gn-menu2{display:none}
+}
